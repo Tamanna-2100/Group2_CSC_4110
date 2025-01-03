@@ -1,0 +1,16 @@
+<!-- filepath: /c:/Users/gaurt/Downloads/website_project/templates/Project3.html -->
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Project 3{% endblock %}
+{% block content %}
+<div class="content-wrapper">
+    <div class="left-content">
+        <img src="{% static 'images/presents.jpeg' %}" alt="Presents">
+    </div>
+    <div class="right-content">
+        <h1>Find the One</h1>
+        <p>Do you need help finding a gift from the millions of different choices online? Here’s your solution. Download the project using the below link to use.</p>
+        <a href="https://github.com/WSU-4410-Fall-2024/Group2-Final/tree/main" class="download-button">Link</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="content-wrapper">
+    <div class="text-content">
+        <p class="hello">Hello we are,</p>
+        <h1>CSC 4110 Group 2</h1>
+        <p class="small">This website is for educational purposes only</p>
+        <p class="small">Tamanna Gaur | Chinmay Deore | Aniruddah Paul | Nayem Khan</p>
+    </div>
+    <div class="image-content">
+        <img class="home-image" src="{% static 'images/typing.jpg' %}" alt="Home Image">
+    </div>
+</div>
+{% endblock %}
